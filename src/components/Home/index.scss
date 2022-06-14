@@ -1,0 +1,92 @@
+$button-bg-color: #1266f1;
+$button-onhover-color: rgb(5, 138, 255);
+$body-bg-color: #272822;
+$body-text-color: #fff;
+$highlight-bg-color: #ADD8E6;
+$highlight-color: black;
+$normal-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%),
+    0 2px 10px 0 rgb(0 0 0 / 10%);
+::selection {
+    background-color: $highlight-bg-color;
+    color: $highlight-color;
+}
+
+.text-lg {
+    font-size: 40px;
+}
+
+.text-typed-out {
+    font-size: 35px;
+}
+
+.center-text {
+    display: grid;
+    place-items: center;
+}
+
+.space-under {
+    margin-bottom: 5vh;
+}
+
+.space-above {
+    margin-top: 5vh;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
+}
+
+.btn {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: $body-text-color;
+    background-color: $button-bg-color;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    transition: 0.3s ease;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: $button-onhover-color;
+    box-shadow: $normal-box-shadow;
+}
+
+.btn:focus {
+    background-color: $button-onhover-color;
+    box-shadow: $normal-box-shadow;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+::-webkit-slider-thumb {
+    background-color: white;
+}
+
+::-webkit-slider-runnable-track {
+    background-color: $body-bg-color;
+}
+
+.image-desc {
+    margin-top: 5vh;
+}
