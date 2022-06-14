@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+$button-bg-color: #1266f1;
+$button-onhover-color: rgb(5, 138, 255);
+$body-bg-color: #272822;
+$body-text-color: #fff;
+$highlight-bg-color: #add8e6;
+$highlight-color: black;
+$normal-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+body {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: $body-bg-color;
+  color: $body-text-color;
+  overflow: none;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $body-bg-color;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
