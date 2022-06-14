@@ -6,10 +6,6 @@ $highlight-bg-color: #add8e6;
 $highlight-color: black;
 $normal-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
 $card-bg-color: #4d4d4d;
-::selection {
-  background-color: $highlight-bg-color;
-  color: $highlight-color;
-}
 
 .text-lg {
   font-size: 40px;
